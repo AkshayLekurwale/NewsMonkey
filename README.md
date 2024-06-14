@@ -1,6 +1,6 @@
 # NewsMonkey
 
-NewsMonkey is a web-based news application that provides users with the latest news across various categories. This project is built using the MERN stack (MongoDB, Express.js, React, Node.js) and showcases key features such as data fetching from APIs, implementing loaders, and using React Router for navigation.
+NewsMonkey is a web-based news application that provides users with the latest news across various categories. This project is built using the MERN stack (React, Node.js) and showcases key features such as data fetching from APIs, implementing loaders, and using React Router for navigation.
 
 ![Home Page](s1.png)
 ![Home Page](s2.png)
