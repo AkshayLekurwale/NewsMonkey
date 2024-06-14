@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# NewsMonkey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NewsMonkey is a web-based news application that provides users with the latest news across various categories. This project is built using the MERN stack (MongoDB, Express.js, React, Node.js) and showcases key features such as data fetching from APIs, implementing loaders, and using React Router for navigation.
 
-## Available Scripts
+![Home Page](s1.png)
+![Home Page](s2.png)
+![Home Page](s3.png)
+![Home Page](s4.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Multiple News Categories**: Users can browse news articles from different categories including General, Sports, Entertainment, Health, Business, and Technology.
+- **Dynamic Data Fetching**: The app fetches real-time news data from external APIs, ensuring that users always have access to the latest news.
+- **Loading Indicators**: Implemented loaders to enhance user experience by providing visual feedback while data is being fetched.
+- **Smooth Navigation**: Utilized React Router for seamless navigation between different news categories.
+- **Responsive Design**: The application is designed to be responsive, ensuring a smooth experience on both desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js, React Router
+- **Backend**: Node.js, Express.js
+- **API**: News data is fetched from a third-party news API
 
-### `npm test`
+## Learning Outcomes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+By building NewsMonkey, I have gained hands-on experience in:
 
-### `npm run build`
+- **Fetching Data from APIs**: Understanding how to make API calls and handle asynchronous data fetching in a React application.
+- **Implementing Loaders**: Learning to enhance user experience with loading indicators during data fetching operations.
+- **React Router**: Mastering the use of React Router for creating a multi-page experience in a single-page application (SPA).
+- **MERN Stack**: Strengthening my skills in full-stack development using MongoDB, Express.js, React, and Node.js.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
