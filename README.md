@@ -18,7 +18,6 @@ NewsMonkey is a web-based news application that provides users with the latest n
 ## Technologies Used
 
 - **Frontend**: React.js, React Router
-- **Backend**: Node.js, Express.js
 - **API**: News data is fetched from a third-party news API
 
 ## Learning Outcomes
